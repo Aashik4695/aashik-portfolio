@@ -1,93 +1,103 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mohamed Aashik - Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohamed Aashik - Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header class="hero">
-        <div class="container">
-            <img src="assets/1738549215892 (1).jpg" alt="Aashik Photo" class="profile-pic"/>
-            <h1><span class="animated">Mohamed Aashik</span></h1>
-            <p>Business Intelligence Analyst | Data Enthusiast | Power BI Expert</p>
-            <button onclick="toggleMode()">🌙 Toggle Dark/Light</button>
-        </div>
-    </header>
+  <header>
+    <nav>
+      <h1>Mohamed Aashik</h1>
+      <ul>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#video">Video</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="summary container">
-        <h2>Summary</h2>
-        <p>Business Intelligence Analyst with expertise in SQL, DAX, Python, R, Amazon Quick Sight, and Machine Learning. Skilled in Power BI dashboards, AWS S3 integration, and delivering strategic data-driven insights.</p>
-    </section>
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Business Intelligence Analyst</h2>
+      <p>Dubai, United Arab Emirates</p>
+      <img src="1738549215892 (1).jpg" alt="Aashik Photo" class="profile-photo" />
+    </div>
+  </section>
 
-    <section class="skills container">
-        <h2>Skills</h2>
-        <ul>
-            <li>SQL, DAX, Power BI, QuickSight, Python, R</li>
-            <li>Data Visualization, Dashboarding, AWS S3, Data Sync</li>
-            <li>Advanced Excel, Predictive Analytics, Microsoft D365</li>
-        </ul>
-    </section>
+  <section id="summary">
+    <h2>Summary</h2>
+    <p>
+      Business Intelligence Analyst with expertise in SQL, DAX, Python, R, Amazon QuickSight, and Machine Learning.
+      Skilled in Power BI dashboards, AWS S3 data integration, and actionable analytics. Passionate about data-driven
+      decision-making and strategic insights.
+    </p>
+  </section>
 
-    <section class="projects container">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>🎬 Presentation Video</h3>
-            <video controls class="video-box">
-                <source src="assets/AD - (1).mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <div class="project">
-            <h3>Chocolate Sales & Profit Dashboard - Power BI</h3>
-            <p>Includes KPIs: Total Profit, Sales, Costs, Boxes, Shipments. MoM metrics and region-based visuals.</p>
-        </div>
-        <div class="project">
-            <h3>Netflix Data Visualization - QuickSight</h3>
-            <p>Built dashboards using Amazon QuickSight with data from AWS S3 to deliver rich user-interactive insights.</p>
-        </div>
-    </section>
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <h3>Business Intelligence Analyst, Stream Tech Innovations Pvt Ltd</h3>
+    <p><em>Oct 2022 - Oct 2024</em></p>
+    <ul>
+      <li>Managed data sync between Dynamics 365 CRM and Power BI for real-time reporting.</li>
+      <li>Created DAX-based visuals in Power BI and optimized data models.</li>
+      <li>Developed and maintained dashboards with actionable business insights.</li>
+      <li>Collaborated with teams for effective cross-functional data strategies.</li>
+      <li>Utilized SQL for database management and Power BI integration.</li>
+    </ul>
+  </section>
 
-    <section class="certifications container">
-        <h2>Certifications</h2>
-        <ul>
-            <li>Certified Data Analyst Associate - DataCamp</li>
-            <li>Google Data Analytics - Coursera</li>
-            <li>Data Analyst Essentials - Cisco</li>
-            <li>Member of Institute of Analytics</li>
-        </ul>
-    </section>
+  <section id="projects">
+    <h2>Projects</h2>
 
-    <section class="education container">
-        <h2>Education</h2>
-        <ul>
-            <li>PG Diploma in Data Science – OTHM UK</li>
-            <li>BSc (Hons) in Computing – Wrexham University</li>
-            <li>Diploma in Accounting & Business – CMA SL</li>
-        </ul>
-    </section>
+    <h3>Amazon QuickSight Dashboard - Netflix Dataset</h3>
+    <ul>
+      <li>Created interactive dashboards with Netflix data from AWS S3.</li>
+      <li>Applied filters and visualizations for trend analysis and export features.</li>
+    </ul>
 
-    <section class="experience container">
-        <h2>Experience</h2>
-        <h3>Business Intelligence Analyst – Stream Tech Innovations</h3>
-        <p>Oct 2022 - Oct 2024</p>
-        <ul>
-            <li>Built Power BI dashboards synced with D365 CRM and SQL</li>
-            <li>Used DAX & SQL for data modeling and data preparation</li>
-            <li>Worked across teams to deliver data-driven business decisions</li>
-        </ul>
-    </section>
+    <h3>Chocolate Sales & Profit Dashboard - Power BI</h3>
+    <ul>
+      <li>Included KPIs: Profit %, Sales, Costs, Boxes, Shipments.</li>
+      <li>MoM performance metrics and regional profit/sales visuals.</li>
+    </ul>
+  </section>
 
-    <footer class="container">
-        <p>📫 Contact: aashik22ul@gmail.com | 📍 Dubai, UAE</p>
-    </footer>
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>
+      SQL, Power BI, DAX, Python, R, Amazon QuickSight, AWS S3, Machine Learning, Microsoft D365, Advanced Excel, Tableau,
+      Predictive Analysis, Data Cleansing, Dashboard Design, ETL, Data Warehousing, KPI Development, Business Analysis.
+    </p>
+  </section>
 
-    <script>
-        function toggleMode() {
-            document.body.classList.toggle('dark');
-        }
-    </script>
+  <section id="education">
+    <h2>Education & Certifications</h2>
+    <ul>
+      <li>PG Diploma in Data Science – OTHM UK</li>
+      <li>BSc Hons in Computing – Wrexham University</li>
+      <li>Diploma in Accounting & Business – CMA SL</li>
+      <li>Google Data Analytics – Coursera</li>
+      <li>Certified Data Analyst Associate – DataCamp</li>
+      <li>Data Analyst Essentials – Cisco</li>
+      <li>Associate Member – Institute of Analytics (IoA)</li>
+    </ul>
+  </section>
+
+  <section id="video">
+    <h2>Featured Video Presentation</h2>
+    <video controls class="portfolio-video">
+      <source src="AD - (1).mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <footer>
+    <p>📧 aashik22ul@gmail.com | 📞 +971 564 90 6393 | 🌐 <a href="#">Portfolio Website</a></p>
+  </footer>
 </body>
 </html>
