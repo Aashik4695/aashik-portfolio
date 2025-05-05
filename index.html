@@ -8,96 +8,97 @@
 </head>
 <body>
   <header>
-    <nav>
-      <h1>Mohamed Aashik</h1>
-      <ul>
+    <nav class="navbar">
+      <div class="logo">Aashik</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
         <li><a href="#summary">Summary</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#education">Education</a></li>
-        <li><a href="#video">Video</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <h2>Business Intelligence Analyst</h2>
-      <p>Dubai, United Arab Emirates</p>
-      <img src="1738549215892 (1).jpg" alt="Aashik Photo" class="profile-photo" />
+  <section id="hero" class="hero-section">
+    <img src="1738549215892 (1).jpg" alt="Aashik" class="profile-pic" />
+    <div class="hero-text">
+      <h1>Mohamed Aashik</h1>
+      <p class="animated-text">Business Intelligence Analyst</p>
     </div>
   </section>
 
   <section id="summary">
-    <h2>Summary</h2>
+    <h2>Professional Summary</h2>
     <p>
-      Business Intelligence Analyst with expertise in SQL, DAX, Python, R, Amazon QuickSight, and Machine Learning.
-      Skilled in Power BI dashboards, AWS S3 data integration, and actionable analytics. Passionate about data-driven
-      decision-making and strategic insights.
+      Business Intelligence Analyst with expertise in SQL, DAX, Python, R, Amazon Quick Sight, and Machine Learning. Skilled in Power BI dashboards and AWS S3 data integration. Passionate about data-driven solutions and strategic decision-making.
     </p>
   </section>
 
-  <section id="experience">
-    <h2>Work Experience</h2>
-    <h3>Business Intelligence Analyst, Stream Tech Innovations Pvt Ltd</h3>
-    <p><em>Oct 2022 - Oct 2024</em></p>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skill-list">
+      <li>Power BI, SQL, DAX, Python, R</li>
+      <li>Amazon QuickSight, AWS S3</li>
+      <li>Data Visualization, Data Cleansing</li>
+      <li>Advanced Excel, Statistical Analysis</li>
+      <li>Microsoft D365, Tableau</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
     <ul>
-      <li>Managed data sync between Dynamics 365 CRM and Power BI for real-time reporting.</li>
-      <li>Created DAX-based visuals in Power BI and optimized data models.</li>
-      <li>Developed and maintained dashboards with actionable business insights.</li>
-      <li>Collaborated with teams for effective cross-functional data strategies.</li>
-      <li>Utilized SQL for database management and Power BI integration.</li>
+      <li><strong>Postgraduate Diploma:</strong> Data Science - OTHM UK</li>
+      <li><strong>BSc Hons in Computing:</strong> Wrexham University</li>
+      <li><strong>Diploma:</strong> Accounting & Business Studies - CMA SL</li>
+    </ul>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Certified Data Analyst Associate – DataCamp</li>
+      <li>Google Data Analytics – Coursera</li>
+      <li>Data Analyst Essentials – Cisco</li>
+      <li>Associate Member – Institute of Analytics (IoA)</li>
     </ul>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
 
-    <h3>Amazon QuickSight Dashboard - Netflix Dataset</h3>
-    <ul>
-      <li>Created interactive dashboards with Netflix data from AWS S3.</li>
-      <li>Applied filters and visualizations for trend analysis and export features.</li>
-    </ul>
+    <div class="project">
+      <h3>Video Presentation</h3>
+      <video controls class="project-video">
+        <source src="AD - (1).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
 
-    <h3>Chocolate Sales & Profit Dashboard - Power BI</h3>
-    <ul>
-      <li>Included KPIs: Profit %, Sales, Costs, Boxes, Shipments.</li>
-      <li>MoM performance metrics and regional profit/sales visuals.</li>
-    </ul>
+    <div class="project">
+      <h3>Amazon QuickSight Dashboard</h3>
+      <p>Interactive dashboard using Netflix data stored in Amazon S3, built with clarity and interactivity in mind.</p>
+    </div>
+
+    <div class="project">
+      <h3>Chocolate Sales & Profit Dashboard - Power BI</h3>
+      <p>Includes KPIs for Profit, Sales, Costs, with MoM calculations and performance visualizations.</p>
+    </div>
   </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <p>
-      SQL, Power BI, DAX, Python, R, Amazon QuickSight, AWS S3, Machine Learning, Microsoft D365, Advanced Excel, Tableau,
-      Predictive Analysis, Data Cleansing, Dashboard Design, ETL, Data Warehousing, KPI Development, Business Analysis.
-    </p>
-  </section>
-
-  <section id="education">
-    <h2>Education & Certifications</h2>
-    <ul>
-      <li>PG Diploma in Data Science – OTHM UK</li>
-      <li>BSc Hons in Computing – Wrexham University</li>
-      <li>Diploma in Accounting & Business – CMA SL</li>
-      <li>Google Data Analytics – Coursera</li>
-      <li>Certified Data Analyst Associate – DataCamp</li>
-      <li>Data Analyst Essentials – Cisco</li>
-      <li>Associate Member – Institute of Analytics (IoA)</li>
-    </ul>
-  </section>
-
-  <section id="video">
-    <h2>Featured Video Presentation</h2>
-    <video controls class="portfolio-video">
-      <source src="AD - (1).mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📍 Dubai, United Arab Emirates</p>
+    <p>📧 aashik22ul@gmail.com</p>
+    <p>📞 +971 564 90 6393</p>
+    <p>🔗 <a href="https://www.linkedin.com/in/aashik2000" target="_blank">LinkedIn Profile</a></p>
   </section>
 
   <footer>
-    <p>📧 aashik22ul@gmail.com | 📞 +971 564 90 6393 | 🌐 <a href="#">Portfolio Website</a></p>
+    <p>© 2025 Mohamed Aashik. All rights reserved.</p>
   </footer>
 </body>
 </html>
