@@ -3,102 +3,93 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mohamed Aashik - Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+  <title>Mohamed Aashik | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <nav class="navbar">
-      <div class="logo">Aashik</div>
+      <h1 class="logo">Aashik</h1>
       <ul class="nav-links">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#summary">Summary</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="hero" class="hero-section">
-    <img src="1738549215892 (1).jpg" alt="Aashik" class="profile-pic" />
+  <section class="hero">
+    <img src="1738549215892 (1).jpg" alt="Aashik's Photo" class="hero-img" />
     <div class="hero-text">
-      <h1>Mohamed Aashik</h1>
-      <p class="animated-text">Business Intelligence Analyst</p>
+      <h2>Hello, I’m <span class="highlight">Mohamed Aashik</span></h2>
+      <p>Business Intelligence Analyst | Data Visualizer | AWS Enthusiast</p>
     </div>
   </section>
 
-  <section id="summary">
-    <h2>Professional Summary</h2>
-    <p>
-      Business Intelligence Analyst with expertise in SQL, DAX, Python, R, Amazon Quick Sight, and Machine Learning. Skilled in Power BI dashboards and AWS S3 data integration. Passionate about data-driven solutions and strategic decision-making.
-    </p>
+  <section id="about" class="section fade">
+    <h2>Summary</h2>
+    <p>Business Intelligence Analyst with expertise in SQL, DAX, Python, R, Amazon Quick Sight, and Machine Learning. Skilled in building dashboards and delivering insights using tools like Power BI and AWS S3. Passionate about leveraging data to drive strategic decisions.</p>
   </section>
 
-  <section id="skills">
+  <section id="skills" class="section fade">
     <h2>Skills</h2>
-    <ul class="skill-list">
-      <li>Power BI, SQL, DAX, Python, R</li>
-      <li>Amazon QuickSight, AWS S3</li>
-      <li>Data Visualization, Data Cleansing</li>
-      <li>Advanced Excel, Statistical Analysis</li>
-      <li>Microsoft D365, Tableau</li>
+    <ul class="skills-list">
+      <li>Power BI</li>
+      <li>SQL / DAX</li>
+      <li>Amazon QuickSight / AWS S3</li>
+      <li>Python / R</li>
+      <li>Advanced Excel</li>
+      <li>Machine Learning</li>
+      <li>Microsoft D365</li>
     </ul>
   </section>
 
-  <section id="education">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>Postgraduate Diploma:</strong> Data Science - OTHM UK</li>
-      <li><strong>BSc Hons in Computing:</strong> Wrexham University</li>
-      <li><strong>Diploma:</strong> Accounting & Business Studies - CMA SL</li>
-    </ul>
-  </section>
-
-  <section id="certifications">
-    <h2>Certifications</h2>
-    <ul>
-      <li>Certified Data Analyst Associate – DataCamp</li>
-      <li>Google Data Analytics – Coursera</li>
-      <li>Data Analyst Essentials – Cisco</li>
-      <li>Associate Member – Institute of Analytics (IoA)</li>
-    </ul>
-  </section>
-
-  <section id="projects">
+  <section id="projects" class="section fade">
     <h2>Projects</h2>
-
     <div class="project">
-      <h3>Video Presentation</h3>
-      <video controls class="project-video">
+      <h3>🎥 Presentation: My Data Journey</h3>
+      <video controls width="100%" poster="1738549215892 (1).jpg">
         <source src="AD - (1).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
-
     <div class="project">
-      <h3>Amazon QuickSight Dashboard</h3>
-      <p>Interactive dashboard using Netflix data stored in Amazon S3, built with clarity and interactivity in mind.</p>
+      <h3>Amazon QuickSight - Netflix Dashboard</h3>
+      <p>Designed interactive dashboards using Netflix data in S3. Enabled filterable, exportable, and insightful views.</p>
     </div>
-
     <div class="project">
-      <h3>Chocolate Sales & Profit Dashboard - Power BI</h3>
-      <p>Includes KPIs for Profit, Sales, Costs, with MoM calculations and performance visualizations.</p>
+      <h3>Power BI - Chocolate Sales Dashboard</h3>
+      <p>Created KPIs (Sales, Profit, MoM changes), visualizing trends by region, time, and sales reps.</p>
     </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>📍 Dubai, United Arab Emirates</p>
-    <p>📧 aashik22ul@gmail.com</p>
-    <p>📞 +971 564 90 6393</p>
-    <p>🔗 <a href="https://www.linkedin.com/in/aashik2000" target="_blank">LinkedIn Profile</a></p>
+  <section id="education" class="section fade">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Postgraduate Diploma:</strong> Data Science – OTHM, UK</li>
+      <li><strong>BSc (Hons) in Computing:</strong> Wrexham University</li>
+      <li><strong>Diploma in Business:</strong> CMA SL</li>
+    </ul>
+  </section>
+
+  <section id="certifications" class="section fade">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Google Data Analytics – Coursera</li>
+      <li>Data Analyst Essentials – Cisco</li>
+      <li>Certified Data Analyst Associate – DataCamp</li>
+      <li>IoA Associate Membership (Open to renewal)</li>
+    </ul>
   </section>
 
   <footer>
-    <p>© 2025 Mohamed Aashik. All rights reserved.</p>
+    <p>© 2025 Mohamed Aashik | aashik22ul@gmail.com | LinkedIn: <a href="https://linkedin.com/in/aashik2000" target="_blank">aashik2000</a></p>
   </footer>
+
 </body>
 </html>
